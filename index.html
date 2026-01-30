@@ -281,12 +281,30 @@
 <script>
     // පෝම් එක පෙන්නන්න (Open)
     function openForm() {
-        document.getElementById("contactOverlay").style.display = "flex";
+        // මෙතන නම "formOverlay" කියලා වෙනස් කළා
+        document.getElementById("formOverlay").style.display = "flex";
     }
 
     // පෝම් එක වහන්න (Close)
     function closeForm() {
-        document.getElementById("contactOverlay").style.display = "none";
+        // මෙතනත් "formOverlay" කියලා වෙනස් කළා
+        document.getElementById("formOverlay").style.display = "none";
+    }
+
+    // WhatsApp යවන function එකත් මෙතනටම දාගන්න (මේක main.js එකේ නැත්නම්)
+    function sendToWhatsApp() {
+        let name = document.getElementById("userName").value;
+        let phone = document.getElementById("userPhone").value;
+        let service = document.getElementById("userService").value;
+        let message = document.getElementById("userMessage").value;
+
+        let url = "https://wa.me/94771234567?text=" // ඔයාගේ අංකය මෙතනට දාන්න
+            + "Name: " + name + "%0a"
+            + "Phone: " + phone + "%0a"
+            + "Service: " + service + "%0a"
+            + "Message: " + message;
+
+        window.open(url, '_blank').focus();
     }
 </script>
 
@@ -295,6 +313,7 @@
 
 
 </html>
+
 
 
 
