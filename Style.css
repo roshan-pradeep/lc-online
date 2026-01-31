@@ -546,6 +546,55 @@ body {
 }
 
 
+/* page eke kamathi thanakata h1,para damima */
+
+/* --- පොදු Styles (හැම paragraph එකකටම එක හා සමානව බලපාන දේවල්) --- */
+.custom-p {
+    position: absolute;  /* පේජ් එකේ ඕනෑම තැනකට ගෙනියන්න ඉඩ දෙයි */
+    width: 80%;          /* අකුරු පේළියක දිග */
+    font-family: sans-serif; /* අකුරු වල හැඩය */
+    line-height: 1.6;    /* පේළි අතර පරතරය */
+    transition: 0.3s;    /* වෙනස්කම් සිදුවන වේගය smooth කරයි */
+}
+
+/* --- Desktop/Laptop සඳහා (තිරය ලොකු උපාංග) --- */
+@media (min-width: 769px) {
+    #para1 { 
+        top: 100px;      /* උඩ ඉඳන් දුර */
+        left: 50px;      /* වමේ ඉඳන් දුර */
+        color: blue;     /* අකුරු වල පාට */
+        font-size: 1.2rem; /* අකුරු වල විශාලත්වය */
+    }
+    
+    #para2 { 
+        top: 250px;      /* උඩ ඉඳන් දුර */
+        left: 150px; 
+        color: green; 
+        font-size: 1.1rem; 
+    }
+    
+    #para3 { 
+        bottom: 100px;   /* යට ඉඳන් දුර */
+        right: 50px;     /* දකුණේ ඉඳන් දුර */
+        color: red; 
+        font-size: 1.3rem; 
+    }
+}
+
+/* --- Mobile (Phone) සඳහා (තිරය කුඩා උපාංග) --- */
+@media (max-width: 768px) {
+    .custom-p {
+        position: relative; /* Phone එකේදී එක පෙළට (පෝලිමට) අකුරු තබයි */
+        top: 0 !important;   /* Desktop එකේ දීපු positions අවලංගු කරයි */
+        left: 0 !important;
+        margin: 20px auto;   /* අකුරු කොටස් අතර ඉඩ තබා මැදට ගනියි */
+        width: 90%;          /* දෙපැත්තෙන් ඉඩ තබයි */
+        text-align: center;  /* අකුරු මැදට පෙළගස්වයි */
+        font-size: 1rem;     /* Phone එකට ගැලපෙන කුඩා අකුරු */
+    }
+}
+
+
 
 
 
