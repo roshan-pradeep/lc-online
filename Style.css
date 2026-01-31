@@ -126,7 +126,7 @@ body {
         top: 0;
         right: 0;
         justify-content: center;
-        padding: 10px 0;
+        padding: 5px 0;
         background: #f8f8f8;
         width: 100%;
         gap: 8px;
@@ -134,7 +134,7 @@ body {
     
     .language-switcher button {
         font-size: 10px; /* Mobile එකේදී අකුරු තවත් පොඩ්ඩක් කුඩා කළා */
-        padding: 5px 8px;
+        padding: 2px 5px;
     }
 }
 
@@ -544,6 +544,7 @@ body {
         bottom: 0 !important;
     }
 }
+
 
 
 
