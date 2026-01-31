@@ -33,7 +33,7 @@ body {
     position: relative;  /* ඇතුළේ තියෙන දේවල් මේකට සාපේක්ෂව පාලනය කරයි */
     width: 100%;         /* මුළු screen එකේම පළල ගනී */
     height: 30vh;        /* screen එකේ උසින් 80% ක් උස ලබා දෙයි */
-    min-height: 400px;   /* අඩුම උස 400px ලෙස තබයි */
+    min-height: 200px;   /* අඩුම උස 400px ලෙස තබයි */
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../IMG/hero-bg.jpg'); /* පින්තූරය උඩින් කළු පාට ලේයර් එකක් දමයි */
     background-size: cover; /* පින්තූරය screen එකට හරියටම fit කරයි */
     background-position: center; /* පින්තූරයේ මැද කොටස පෙන්වයි */
@@ -507,3 +507,4 @@ body {
     padding: 10px 10%; /* Image ekak nisa padding poddak adu kara */
 
 }
+
