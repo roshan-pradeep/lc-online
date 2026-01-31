@@ -511,34 +511,27 @@ body {
 /* kamathi  thanakata photo dana eka */
 
 /* ඕනෑම තැනක පාවිච්චි කළ හැකි Gallery Style එක */
-.custom-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* පින්තූර මැදට ගේන්න */
-    align-items: center;     /* උසින් සමාන නැත්නම් මැදට ගන්න */
-    gap: 20px;
-    padding: 20px;           /* අවශ්‍ය පරිදි වෙනස් කරගන්න */
-    width: 100%;             /* තිබෙන ඉඩ ප්‍රමාණයට අනුව සකස් වෙන්න */
-    margin: 0 auto;          /* මැදට ස්ථානගත වෙන්න */
-}
-
-.custom-gallery img {
-    /* ප්‍රමාණය වෙනස් කරන්න ලේසි වෙන්න මෙතනින් */
-    width: 180px; 
+/* පින්තූර වල පොදු පෙනුම */
+.movable-photo {
+    width: 180px;
     height: 180px;
-    
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;        /* පින්තූරයක් බව පෙන්වන්න අතේ ලකුණ */
+    position: absolute; /* මේක වැදගත්: මේකෙන් තමයි ඕන තැනකට ගෙනියන්න දෙන්නේ */
+    transition: 0.3s;
 }
 
-/* Mouse එක ගෙනිච්චම වෙනස් වීම */
-.custom-gallery img:hover {
-    transform: scale(1.08);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* Hover එකේදී shadow එක තව වැඩි කළා */
+.movable-photo:hover {
+    transform: scale(1.1);
+    z-index: 10; /* Hover කරද්දී පින්තූරය අනිත් ඒවට වඩා උඩින් පේන්න */
 }
+
+/* එක එක පින්තූරයට අදාළ තැන් (Positions) */
+#photo1 { top: 50px; left: 100px; }
+#photo2 { top: 50px; right: 50px; }
+#photo3 { bottom: 50px; left: 200px; }
+#photo4 { bottom: 50px; right: 150px; }
 
 
 
