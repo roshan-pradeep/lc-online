@@ -48,7 +48,7 @@ body {
 /* Hero Content eke thiyena Main Heading (h1) eka */
 .hero-content h1 {
   position: absolute;
-  top: 20%;   /* Udadi idan 20% k pahalata */
+  top: 10%;   /* Udadi idan 20% k pahalata */
   left: 30%;  /* Wam patthe idan 10% k dakunata */
   /* Oyata ona ganan dila balance karaganna */
   font-size: 3.5rem;          /* Akuru loku karanna */
@@ -61,8 +61,8 @@ body {
 /* Hero Content eke thiyena Paragraph (p) eka */
 .hero-content p {
     position: absolute;
-  top: 60%;   /* Udadi idan 20% k pahalata */
-  left: 10%;  /* Wam patthe idan 10% k dakunata */
+  top: 30%;   /* Udadi idan 20% k pahalata */
+  left: 30%;  /* Wam patthe idan 10% k dakunata */
   /* Oyata ona ganan dila balance karaganna */
   font-size: 1.2rem;         /* Akuru size eka */
   line-height: 1.6;          /* Pelawal athara ida (pahasuwen kiyawanna) */
@@ -507,6 +507,7 @@ body {
     padding: 10px 10%; /* Image ekak nisa padding poddak adu kara */
 
 }
+
 
 
 
