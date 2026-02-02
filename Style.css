@@ -37,7 +37,7 @@ body {
     width: 100%;         /* මුළු screen එකේම පළල ගනී */
     height: 30vh;        /* screen එකේ උසින් 80% ක් උස ලබා දෙයි */
     min-height: 200px;   /* අඩුම උස 400px ලෙස තබයි */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../IMG/hero-bg.jpg'); /* පින්තූරය උඩින් කළු පාට ලේයර් එකක් දමයි */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/IMG/web-\ background1\ \(1\).jpg'); /* පින්තූරය උඩින් කළු පාට ලේයර් එකක් දමයි */
     background-size: cover; /* පින්තූරය screen එකට හරියටම fit කරයි */
     background-position: center; /* පින්තූරයේ මැද කොටස පෙන්වයි */
     display: flex;       /* අකුරු සහ බටන් පෙළගස්වන්න උදව් වෙයි */
@@ -52,7 +52,7 @@ body {
 .hero-content h1 {
   position: absolute;
   top: 10%;   /* Udadi idan 20% k pahalata */
-  left: 30%;  /* Wam patthe idan 10% k dakunata */
+  left: 50%;  /* Wam patthe idan 10% k dakunata */
   /* Oyata ona ganan dila balance karaganna */
   font-size: 3.5rem;          /* Akuru loku karanna */
   font-family: 'Arial', sans-serif; /* Font style eka wenas karanna */
@@ -622,5 +622,6 @@ body {
         margin: 10px auto;
     }
 }
+
 
 
