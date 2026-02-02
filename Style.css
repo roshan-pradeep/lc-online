@@ -564,6 +564,21 @@ body {
 
 /* --- Desktop/Laptop සඳහා (තිරය ලොකු උපාංග) --- */
 @media (min-width: 769px) {
+
+    /* h1 eke style eka methana danna */
+    h1 {
+        position: absolute;   /* Para wala widihatama position wenna */
+        top: 100px;          /* Uda idan thiyena dura */
+        left: 50%;           /* Screen eke madata ganna */
+        transform: translateX(-50%); /* Thaniyatama mada wenna meka danna */
+        
+        font-family: 'Poppins', sans-serif; /* Font style eka */
+        font-size: 3.5rem;   /* Font size eka (hoda lokuwata) */
+        color: #333;         /* Dark grey wage color ekak */
+        font-weight: 800;    /* Akuru thadiyata (bold) ganna */
+    }
+
+    
     #para1 { 
         top: 100px;      /* උඩ ඉඳන් දුර */
         left: 50px;      /* වමේ ඉඳන් දුර */
@@ -607,4 +622,5 @@ body {
         margin: 10px auto;
     }
 }
+
 
