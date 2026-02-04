@@ -37,7 +37,7 @@ body {
     width: 100%;         /* මුළු screen එකේම පළල ගනී */
     height: 30vh;        /* screen එකේ උසින් 80% ක් උස ලබා දෙයි */
     min-height: 200px;   /* අඩුම උස 400px ලෙස තබයි */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/IMG/web-\ background1\ \(1\).jpg'); /* පින්තූරය උඩින් කළු පාට ලේයර් එකක් දමයි */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../DIALOGPROJECT/assets/IMG/web-\ background1\ \(1\).jpg'); /* පින්තූරය උඩින් කළු පාට ලේයර් එකක් දමයි */
     background-size: cover; /* පින්තූරය screen එකට හරියටම fit කරයි */
     background-position: center; /* පින්තූරයේ මැද කොටස පෙන්වයි */
     display: flex;       /* අකුරු සහ බටන් පෙළගස්වන්න උදව් වෙයි */
@@ -675,4 +675,5 @@ body {
         width: 100%;
         margin: 10px 0;
     }
+
 }
