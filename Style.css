@@ -673,8 +673,8 @@ h1, .custom-p {
         font-size: 22px;
     }
     .about-page #para1 { top: 320px; font-size: 14px; color: #63cc0d; }
-    .about-page #para2 { top: 500px; font-size: 14px; color: #ee0c0c; }
-    .about-page #para3 { top: 620px; font-size: 14px; color: #310cb6; }
+    .about-page #para2 { top: 600px; font-size: 14px; color: #ee0c0c; }
+    .about-page #para3 { top: 720px; font-size: 14px; color: #310cb6; }
 
 
 
@@ -696,4 +696,5 @@ h1, .custom-p {
         z-index: 10;
         width: auto;      /* Button එකේ පළල අකුරු අනුව හැදෙයි */
         display: inline-block;
+
     }
