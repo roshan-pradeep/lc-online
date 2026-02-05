@@ -7,6 +7,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
         <title> ඩයලොග් ටෙලිව්ෂන්  </title>
+
+
+<style>
+        /* Menna methanata thamayi CSS tika enne */
+       body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: sans-serif;
+        }
+
+        /* Meka Desktop ekata (Loku screen wala penna) */
+        .product-card {
+            background: white;
+            width: 300px;
+            /* Anith CSS tika... */
+        }
+
+       @media (max-width: 600px) {
+    .product-card {
+        position: relative; 
+        z-index: 100;       
+        
+        margin-top: -90px;
+        margin-left: 5%;
+        
+        /* Card eka podi karanna methana wenas karanna */
+        width: 45%;         /* Screen eken 45% k gannawa */
+        padding: 10px;      /* Athule ida poddak adu kara */
+    }
+
+    /* Card eka podi weddi heading ekath podi karamu */
+    .product-card h2 {
+        font-size: 16px; 
+    }
+
+    /* Image eka card ekata fit wenna hadamu */
+    .product-card img {
+        width: 100%;       /* Box eke size ekata auto adjust wenna */
+        height: auto;
+    }
+}
+    </style>
+
+
+
+
     </head>
 
     <body class="dtv-page">
@@ -30,7 +77,7 @@
 
         <!-- <kamathi thanakata daganna photo--> 
 
-<img src="assets/IMG/DTV.png" class="movable-photo" id="photo1">
+<!-- <img src="assets/IMG/DTV.png" class="movable-photo" id="photo1"> -->
 <!-- <img src="img2.jpg" class="movable-photo" id="photo2"> -->
 <!-- <img src="img3.jpg" class="movable-photo" id="photo3"> -->
 <!-- <img src="img4.jpg" class="movable-photo" id="photo4"> -->
@@ -53,13 +100,33 @@
 <div class="content-container">
     <h1 class="main-title"> ඩයලොග් ටෙලිව්ෂන්</h1>
 
-    <p class="custom-p" id="para1">LcOnline හරහා ඔබට අවශ්‍ය Dialog Television නව සම්බන්ධතා/Antenna Repair /නැවත සවිකිරිම් ඇතුලු සේවාවන් ලබා ගැනිමට LcOnlone Whatsapp අංකයට ඇමතුමක් ගෙන අපගේ නියොජිතයෙකු හා සම්බන්ධ වන්න.
+    <p class="custom-p" id="para1">LcOnline හරහා ඔබට අවශ්‍ය Dialog Television <br> නව සම්බන්ධතා/Antenna Repair /නැවත සවිකිරිම් ඇතුලු සේවාවන් ලබා ගැනිමට LcOnlone Whatsapp අංකයට ඇමතුමක් ගෙන අපගේ නියොජිතයෙකු හා සම්බන්ධ වන්න.
       සැ.යු :- නැවත සවිකිරිම් /Repair කටයුතු කරන්දෙණිය , බෙන්තොට,ඇල්පිටිය,අම්බලන්ගොඩ ,ඌරගහ යන ප්‍රදේශ වල පමණක් දැනට සිදුකරනු ලබයි..</p>
     
       <p class="custom-p" id="para2">සවිකිරිම සදහා අපගේ නියොජිතයා රු 2500/= මුදලක් අය කරනු ලබයි.මෙයට අමතරව කිසිදු අමතර මුදලක් අය කරනු නොලබයි.</p>
     
       <p class="custom-p" id="para3">මෙයට අමතරව Dialog Television සදහා අමතර උපාංග දිවයිනේ ඕනැම ප්‍රදේශයකට  ගෙන්වා ගැනිමට ඔබට දැන් පුලුවනි.අපගේ Whatsapp අංකයට පණිවිඩයක් යොමු කරන්න.</p>
 </di>
+
+
+<!-- product card kotuwak athule liyana eka -->
+
+<div class="product-card">
+  <h2 class="card-heading">Dialog Television නව සම්බන්ධතාව</h2>
+  
+  <div class="card-body">
+    <img src="assets/IMG/DTV.png" alt="Dialog Router" class="product-img">
+    
+    
+  </div>
+  
+  <div class="price-tag">Rs. 9990.00</div>
+</div>
+
+
+
+
+
 
 <script src="assets/JS/main.js"></script>
     </body>
