@@ -52,7 +52,7 @@ body {
 .hero-content h1 {
   position: absolute;
   top: 10%;   /* Udadi idan 20% k pahalata */
-  left: 50%;  /* Wam patthe idan 10% k dakunata */
+  left: 40%;  /* Wam patthe idan 10% k dakunata */
   /* Oyata ona ganan dila balance karaganna */
   font-size: 3.rem;          /* Akuru loku karanna */
   font-family: 'Arial', sans-serif; /* Font style eka wenas karanna */
@@ -64,15 +64,15 @@ body {
 /* Hero Content eke thiyena Paragraph (p) eka */
 .hero-content p {
     position: absolute;
-  top: 30%;   /* Udadi idan 20% k pahalata */
-  left: 50%;  /* Wam patthe idan 10% k dakunata */
+  top: 35%;   /* Udadi idan 20% k pahalata */
+  left: 40%;  /* Wam patthe idan 10% k dakunata */
   /* Oyata ona ganan dila balance karaganna */
   font-size: 1rem;         /* Akuru size eka */
   line-height: 1.6;          /* Pelawal athara ida (pahasuwen kiyawanna) */
   margin-bottom: 30px;       /* Button ekath ekka thiyena ida */
   max-width: 600px;          /* Akuru pela godak diga wenna nodi thiyaganna */
-  margin-left: auto;         /* Center karaganna ona nam (text-align center nam) */
-  margin-right: auto;
+  margin-left:-35% ;         /* Center karaganna ona nam (text-align center nam) */
+  
 }
 
 /* --- CONTACT BUTTON (සයිස් එක පාලනය කරන තැන) --- */
@@ -140,7 +140,7 @@ body {
     }
     
     .hero-content h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
@@ -176,22 +176,25 @@ body {
 @media (max-width: 768px) {
   
   .hero-content h1 {
-    font-size: 2rem;       /* Desktop ekata wada akuru podi kara */
-    margin-bottom: 15px;
+    font-size: 1.5rem;       /* Desktop ekata wada akuru podi kara */
+    margin-bottom: 10px;
+    margin-left: 10%;
+
   }
 
   .hero-content p {
     font-size: 1rem;       /* Paragraph eka kiyawanna lesi size ekakata gaththa */
-    padding: 0 20px;       /* Phone eke deppaththen ida poddak thiyaganna */
+    padding: 5px 20px;       /* Phone eke deppaththen ida poddak thiyaganna */
+    margin-right: -5%;
   }
 
   .hero-section {
 position: relative;  /* ඇතුළේ තියෙන දේවල් මේකට සාපේක්ෂව පාලනය කරයි */
     width: 100%;         /* මුළු screen එකේම පළල ගනී */
-    height: 40vh;        /* screen එකේ උසින් 80% ක් උස ලබා දෙයි */
+    height: 30vh;        /* screen එකේ උසින් 80% ක් උස ලබා දෙයි */
     min-height: 200px;   /* අඩුම උස 400px ලෙස තබයි */
     padding: 20px;         /* Mulu section ekema ida poddak adu kara */
-     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/IMG/web-\ background1\ \(1\).jpg'); /* පින්තූරය උඩින් කළු පාට ලේයර් එකක් දමයි */
+     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('..lconline/assets/IMG/web-\ background1\ \(1\).jpg'); /* පින්තූරය උඩින් කළු පාට ලේයර් එකක් දමයි */
   }
 
 
@@ -377,7 +380,7 @@ position: relative;  /* ඇතුළේ තියෙන දේවල් මේ�
     height: 25vh; 
     min-height: 100px; /* ෆෝන් එකේදී අකුරු වැහෙන්නේ නැති වෙන්න අවම උසක් දෙනවා */
     
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/IMG/web-\ background2\ .jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('..lconline/assets/IMG/web-\ background2\ .jpg');
     background-size: cover;
     background-position: center;
     
@@ -710,15 +713,15 @@ h1, .custom-p {
 /* --- Contact Button එක phon ekedi--- */
     .main-btn {
         position: absolute;
-        top: 220px;       /* para3 එකට යටින් තියෙන දුර */
+        top: 170px;       /* para3 එකට යටින් තියෙන දුර */
         left: 50%;
         transform: translateX(-50%);
-        padding: 5px 20px; /* මෙතනින් සයිස් එක පාලනය කරන්න */
+        padding: 5px 10px; /* මෙතනින් සයිස් එක පාලනය කරන්න */
         font-size: 16px;
         background-color: #007bff;
         color: white;
         border-radius: 10px;
-        z-index: 10;
+        z-index: 100;
         width: auto;      /* Button එකේ පළල අකුරු අනුව හැදෙයි */
         display: inline-block;
     }
