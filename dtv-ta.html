@@ -7,6 +7,117 @@
 
         <title> Tamil Translate  </title>
     
+        <style>
+        /* Menna methanata thamayi CSS tika enne */
+       body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: sans-serif;
+        }
+
+        /* Meka Desktop ekata (Loku screen wala penna) */
+        .product-card {
+            background: white;
+            width: 300px;
+            /* Anith CSS tika... */
+        }
+
+       @media (max-width: 600px) {
+    .product-card {
+        position: relative; 
+        z-index: 100; 
+              
+        
+        margin-top: -140px;
+        margin-left: 2%;
+        
+        /* Card eka podi karanna methana wenas karanna */
+        width: 45%;         /* Screen eken 45% k gannawa */
+        height: 40%;
+        padding: 10px;      /* Athule ida poddak adu kara */
+    }
+
+    /* Card eka podi weddi heading ekath podi karamu */
+    .product-card h2 {
+        font-size: 16px; 
+    }
+
+    /* Image eka card ekata fit wenna hadamu */
+    .product-card img {
+        width: 100%;       /* Box eke size ekata auto adjust wenna */
+        height: auto;
+        margin-top: -20px;
+
+    }
+    .price-tag {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e70f0f;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: -20%;
+}
+}
+    </style>
+
+
+
+<style>
+        /* Menna methanata thamayi anith card eka 2 ekaCSS tika enne */
+       body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: sans-serif;
+        }
+
+        /* Meka Desktop ekata (Loku screen wala penna) */
+        .product-card2 {
+            background: white;
+            width: 300px;
+            /* Anith CSS tika... */
+        }
+
+       @media (max-width: 600px) {
+    .product-card2 {
+        position: relative; 
+        z-index: 100; 
+              
+        
+        margin-top: -200px;
+        margin-left: 50%;
+        
+        /* Card eka podi karanna methana wenas karanna */
+        width: 45%;         /* Screen eken 45% k gannawa */
+        height: 15%;
+        padding: 10px;      /* Athule ida poddak adu kara */
+    }
+
+    /* Card eka podi weddi heading ekath podi karamu */
+    .product-card2 h2 {
+        font-size: 16px; 
+    }
+
+    /* Image eka card ekata fit wenna hadamu */
+    .product-card2 img {
+        width: 100%;       /* Box eke size ekata auto adjust wenna */
+        height: auto;
+        margin-top: -20px;
+
+    }
+    .price-tag2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e70f0f;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: -30%;
+}
+}
+    </style>
+
+
        
     </head>
     <body class="dtv-page">
@@ -21,7 +132,7 @@
     <nav class="main-nav">
     <div class="logo">
         <a href="index.html">
-            <img src="my-logo.png" alt="LC Online Logo" class="nav-logo">
+            <img src="/assets/IMG/lc online logo.jpg" alt="LC Online Logo" class="nav-logo">
         </a>
     </div>
     <ul class="nav-links">
@@ -37,7 +148,7 @@
 
         <!-- <kamathi thanakata daganna photo--> 
 
-<img src="assets/IMG/DTV.png" class="movable-photo" id="photo1">
+<!--<img src="img1.jpg" class="movable-photo" id="photo1">-->
 <!-- <img src="img2.jpg" class="movable-photo" id="photo2"> -->
 <!-- <img src="img3.jpg" class="movable-photo" id="photo3"> -->
 <!-- <img src="img4.jpg" class="movable-photo" id="photo4"> -->
@@ -55,7 +166,7 @@
         </section>
 
         <div class="content-container">
-    <h1 class="main-title"> உரையாடல் தொலைக்காட்சி</h1>
+    <h1 class="main-title"> </h1>
 
     <p class="custom-p" id="para1">Dialog Television புதிய இணைப்புகள்/ஆன்டெனா பழுதுபார்ப்பு/LcOnline மூலம் மீண்டும் நிறுவுதல் உள்ளிட்ட உங்களுக்குத் தேவையான சேவைகளைப் பெற, LcOnline Whatsapp எண்ணை அழைத்து எங்கள் பிரதிநிதிகளில் ஒருவரைத் தொடர்பு கொள்ளுங்கள்.குறிப்பு:- கரந்தெனிய, பெந்தோட்டை, எல்பிட்டிய, அம்பலாங்கொடை மற்றும் உரகஹா ஆகிய பகுதிகளில் மட்டுமே தற்போது பழுதுபார்க்கும் பணிகள் மேற்கொள்ளப்படுகின்றன.</p>
     
@@ -63,6 +174,37 @@
     
     <p class="custom-p" id="para3">கூடுதலாக, இப்போது நீங்கள் நாட்டின் எந்தப் பகுதிக்கும் Dialog Television பாகங்களை டெலிவரி செய்யலாம். எங்கள் Whatsapp எண்ணுக்கு ஒரு செய்தியை அனுப்பவும்.</p>
 </di>
+
+
+<!-- product card kotuwak athule liyana eka -->
+
+<div class="product-card">
+  <h2 class="card-heading">Dialog Television PrePaid New Connection</h2>
+  
+  <div class="card-body">
+    <img src="assets/IMG/DTV.png" alt="Dialog Router" class="product-img">
+    
+    
+  </div>
+  
+  <div class="price-tag">Rs. 9990.00</div>
+</div>
+
+
+
+<!-- dewani (2)product card kotuwak athule liyana eka -->
+
+<div class="product-card2">
+  <h2 class="card-heading2">Monthly Packege Price</h2>
+  
+  <div class="card-body2">
+    <!-- <img src="assets/IMG/DTV.png" alt="Dialog Router" class="product-img"> -->
+    
+    
+  </div>
+  
+  <div class="price-tag2">Rs. 798.00</div>
+</div>
 
 <script src="assets/JS/main.js"></script>
     </body>
