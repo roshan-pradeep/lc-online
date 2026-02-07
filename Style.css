@@ -687,7 +687,7 @@ h1, .custom-p {
     .about-page #para3 { top: 670px; font-size: 14px; color: #310cb6; }
 
 
-/* --- ABOUT1 for tamil PAGE (Mobile) --- */
+
     .about1-page h1 {
         top: 140px;
         font-size: 22px;
@@ -709,7 +709,33 @@ h1, .custom-p {
     .dtv-page #para3 { top: 900px; font-size: 14px; color: #310cb6; }
 
 
+     /* --- Home broadband (Mobile) --- */
+    .hbb-page h1 {
+        top: 200px;
+        font-size: 25px;
+        color: #e9e7e7;
+    }
+    .hbb-page #para1 { top: 500px; left:170px; font-size: 14px; color: #63cc0d; }
+    .hbb-page #para2 { top: 800px; font-size: 14px; color: #ee0c0c; }
+    .hbb-page #para3 { top: 900px; font-size: 14px; color: #310cb6; }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --- Contact Button එක phon ekedi--- */
     .main-btn {
